@@ -9,6 +9,7 @@ Diplomado1::Application.configure do
   config.action_controller.perform_caching = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
+  #se cambió a true para que en production se pueda encontrar carpeta public
   config.serve_static_assets = true
 
   # Compress JavaScripts and CSS
