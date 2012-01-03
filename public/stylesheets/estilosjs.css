@@ -1,0 +1,54 @@
+body
+{
+    background-image:url("/images/copyAFTheSuburbsfront.jpg");    
+    
+    background-size:cover;
+    
+    
+    }
+
+#imagen1,#imagen2,#imagen3,#imagen4
+{ width:500px;
+    height:500px;
+    position:absolute;
+    
+    }
+ul{
+    list-style-type:none;
+    margin-left:400px;
+    margin-top:40px;
+    
+}
+
+ul li
+{
+    float:left;    
+       margin:3px;
+    background-position:center;    
+   
+}
+
+li img
+{
+    width:100px;
+    height:100px;
+    
+    }
+
+li img:hover
+{
+    border:2px solid;
+   border-color:red; 
+    }
+
+.imginvisible
+{
+	margin-left:40px;
+	display:none;
+}
+
+p
+{
+  margin-left:27%;
+  margin-top:50px;
+    }
