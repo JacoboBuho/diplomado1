@@ -1,0 +1,89 @@
+body 
+{   
+    /* por fin tengo el fondo como quería, BACKGROUND FIJO*/
+    /*background-image: url('/images/lightblue.jpg');*/
+    background-image: url('/images/fondoazul.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-repeat:repeat-x;*/
+    font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+    font-size:50px;
+    color:White;
+  
+    
+} 
+#encabezado
+{
+	color:White;
+	font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+	text-align:center;
+	font-size:50px;
+}
+
+.sub
+{
+	color:White;
+	font-family:"DelItIE","DelIt","Helvetica", "Arial Black", sans-Serif;
+	text-align:center;
+    font-size:40px;
+}
+	
+table
+{
+    position:absolute;
+    top:40%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+ul
+{
+list-style-type:none;
+    
+}
+@font-face
+{
+		font-family:"DelRomIE";
+		src:url("/webfonts/Delicious-Roman.eot");
+}
+
+@font-face
+{
+		font-family:"DelRom";
+		src:url("/webfonts/Delicious-Roman.ttf");
+}
+@font-face
+{
+		font-family:"DelItIE";
+		src:url("/webfonts/Delicious-Italic.eot");
+}
+
+@font-face
+{
+		font-family:"DelIt";
+		src:url("/webfonts/Delicious-Italic.ttf");
+}
+.division{
+
+	
+	width:1500px;
+    padding-left:30px;
+    height:200px;
+	border:none;
+}
+.contenedor{
+	width:800px;
+	border:none;
+	margin:10%;
+	height:auto;
+}
+.imagen_sitio{
+	
+	margin:5px;
+	border:none;
+}
+    
+    
