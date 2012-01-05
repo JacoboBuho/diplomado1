@@ -1,13 +1,14 @@
 body 
 {   
-    /* por fin tengo el fondo como quería, BACKGROUND FIJO*/
-    background-image: url('/images/fondo_gris_deg.png');
-    /*-webkit-background-size: cover;
+    
+    background-image: url('/images/fondoazul.jpg');
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
-    font-family:"Helvetica", Arial, sans-serif;
-    background-repeat:repeat-x;
+    background-size: cover;
+    /*background-repeat:repeat-x;*/
+    font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+    color:White;
   
     
 } 
@@ -18,6 +19,17 @@ table
     left:50%;
     margin-top: -100px;
     margin-left: -100px;
+}
+@font-face
+{
+        font-family:"DelRomIE";
+        src:url("/webfonts/Delicious-Roman.eot");
+}
+
+@font-face
+{
+        font-family:"DelRom";
+        src:url("/webfonts/Delicious-Roman.ttf");
 }
 
     
