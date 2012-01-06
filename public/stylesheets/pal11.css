@@ -1,0 +1,94 @@
+body 
+{   
+    /*background-image: url('/images/lightblue.jpg');*/
+    background-image: url('/images/fondoazul.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-repeat:repeat-x;*/
+    font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+    font-size:50px;
+    color:White;
+  
+    
+} 
+#encabezado
+{
+	color:White;
+	font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+	text-align:center;
+	font-size:50px;
+}
+
+.sub
+{
+	color:White;
+	font-family:"DelItIE","DelIt","Helvetica", "Arial Black", sans-Serif;
+	text-align:center;
+    font-size:40px;
+}
+@font-face
+{
+		font-family:"DelRomIE";
+		src:url("/webfonts/Delicious-Roman.eot");
+}
+
+@font-face
+{
+		font-family:"DelRom";
+		src:url("/webfonts/Delicious-Roman.ttf");
+}
+@font-face
+{
+		font-family:"DelItIE";
+		src:url("/webfonts/Delicious-Italic.eot");
+}
+
+@font-face
+{
+		font-family:"DelIt";
+		src:url("/webfonts/Delicious-Italic.ttf");
+}
+#navegacion
+{
+	list-style-type:none;
+	width:800px;
+	margin:auto;
+	height:50px;
+	margin-top:60px;
+	}
+
+#navegacion .submenu a
+{
+	padding-top:15px;
+	float:left;
+	width:155px;
+	height:30px;
+	font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+	font-size:25px;
+	color:#fff;
+	background:none;
+	text-decoration:none;
+	text-align:center;
+}
+
+#navegacion .division{
+	width:2px;
+	background:silver;
+	height:45px;
+	float:left;
+    
+    
+}
+#navegacion .submenu a:hover , #navegacion .submenu #seleccionado:hover{
+	/*/background:url(images/*.png) bottom center no-repeat;
+	color:#f7ac42;*/
+    color:Red;
+}
+
+
+
+#navegacion .submenu #seleccionado{
+	color:Red;
+}

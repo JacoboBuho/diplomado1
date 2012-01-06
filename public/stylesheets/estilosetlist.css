@@ -1,0 +1,107 @@
+body 
+{   
+    /*background-image: url('/images/lightblue.jpg');*/
+    background-image: url('/images/fondoazul.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-repeat:repeat-x;*/
+    font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+    font-size:50px;
+    color:White;
+  
+    
+} 
+#encabezado
+{
+	color:White;
+	font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+	text-align:center;
+	font-size:60px;
+}
+
+
+@font-face
+{
+		font-family:"DelRomIE";
+		src:url("/webfonts/Delicious-Roman.eot");
+}
+
+@font-face
+{
+		font-family:"DelRom";
+		src:url("/webfonts/Delicious-Roman.ttf");
+}
+
+#navegacion
+{
+	list-style-type:none;
+	width:800px;
+	margin:auto;
+	height:50px;
+	margin-top:60px;
+	}
+
+#navegacion .submenu a
+{
+	padding-top:15px;
+	float:left;
+	width:155px;
+	height:30px;
+	font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+	font-size:20px;
+	color:#fff;
+	background:none;
+	text-decoration:none;
+	text-align:center;
+}
+
+#navegacion .division{
+	width:2px;
+	background:#719443;
+	height:45px;
+	float:left;
+    
+    
+}
+#navegacion .submenu a:hover , #navegacion .submenu #seleccionado:hover{
+	/*/background:url(images/*.png) bottom center no-repeat;
+	color:#f7ac42;*/
+    color:Red;
+}
+
+
+
+#contenido
+{
+	
+    font-family:"DelRomIE", "DelRom","Helvetica", Arial, sans-serif;
+	text-align:center;
+	font-size:50px;
+	width:1200px;
+	margin:auto;
+	padding-top:60px;
+    padding-left:20px;
+	height:1400px;
+    background-color:transparent;
+    color:white;
+    
+    
+}
+#ol{
+	font-family:"Helvetica", Arial, sans-serif;
+		text-align:justify;
+	font-size:25px;
+	width:700px;
+	margin:auto;
+	list-style-type:decimal;
+    }
+#ol ol li{
+	font-family:"Helvetica", Arial, sans-serif;
+    text-align:justify;
+	font-size:20px;
+	width:700px;
+	margin:auto;
+	list-style-type:decimal;
+		}
