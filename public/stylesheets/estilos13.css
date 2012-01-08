@@ -1,0 +1,83 @@
+body 
+{   
+    /* por fin tengo el fondo como quería, BACKGROUND FIJO*/
+    background-image: url('/images/fondoazul.jpg');
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+} 
+
+#encabezado
+{
+	color:White;
+	font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+	text-align:center;
+	font-size:46px;
+}
+
+.sub
+{
+	color:White;
+	font-family:"DelItIE","DelIt","Helvetica", "Arial Black", sans-Serif;
+	text-align:center;
+}
+	
+@font-face
+{
+		font-family:"DelRomIE";
+		src:url("/webfonts/Delicious-Roman.eot");
+}
+
+@font-face
+{
+		font-family:"DelRom";
+		src:url("/webfonts/Delicious-Roman.ttf");
+}
+ 
+@font-face
+{
+		font-family:"DelItIE";
+		src:url("/webfonts/Delicious-Italic.eot");
+}
+
+@font-face
+{
+		font-family:"DelIt";
+		src:url("/webfonts/Delicious-Italic.ttf");
+}
+
+
+table
+{
+    margin: 0 auto 0 auto;
+    text-align:center;
+    border-width:thick;
+    border-color:Silver;
+    border-style:solid;
+    color:White;
+	font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+    
+    
+}
+
+th, td
+{
+text-align:center;
+border-width:1px;
+border-color:Silver;
+border-style:solid;
+width:25%;
+}
+
+.td2
+{
+    width:40%;
+}
+tr
+{
+text-align:center;
+    
+}
