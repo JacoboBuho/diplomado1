@@ -83,5 +83,14 @@ list-style-type:none;
 	margin:5px;
 	border:none;
 }
-    
+    #validador
+{
+	font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	width:400px; 
+	float:left;
+}
+
     
