@@ -3,9 +3,7 @@ body
     /* por fin tengo el fondo como quería, BACKGROUND FIJO*/
     background-image: url('/images/fondoazul.jpg');
    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+ 
     background-size: cover;
     
 } 

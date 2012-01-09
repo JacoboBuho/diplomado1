@@ -2,9 +2,7 @@ body
 {   
     /*background-image: url('/images/lightblue.jpg');*/
     background-image: url('/images/fondoazul.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
     background-size: cover;
     /*background-repeat:repeat-x;*/
     font-family:"DelRomIE","DelRom","Helvetica", "Arial Black", sans-Serif;
